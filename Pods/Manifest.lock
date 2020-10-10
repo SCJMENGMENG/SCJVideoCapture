@@ -1,0 +1,30 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (1.1.0)
+  - TZImagePickerController (3.3.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture (= 1.1)
+  - Masonry
+  - TZImagePickerController
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - FDFullscreenPopGesture
+    - Masonry
+    - TZImagePickerController
+    - YYKit
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 6fc90162827f8235b71a0ea390f3f99a88bfbcce
+
+COCOAPODS: 1.9.3

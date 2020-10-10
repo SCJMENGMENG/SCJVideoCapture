@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E558641C08DE40E843BE981 /* libPods-SCJVideoCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE62513ADB0DC63745D8CA /* libPods-SCJVideoCapture.a */; };
+		76A18510253046D700D32E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1850F253046D700D32E43 /* AppDelegate.m */; };
+		76A18516253046D700D32E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A18515253046D700D32E43 /* ViewController.m */; };
+		76A18519253046D700D32E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A18517253046D700D32E43 /* Main.storyboard */; };
+		76A1851B253046D900D32E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A1851A253046D900D32E43 /* Assets.xcassets */; };
+		76A1851E253046D900D32E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A1851C253046D900D32E43 /* LaunchScreen.storyboard */; };
+		76A18521253046D900D32E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A18520253046D900D32E43 /* main.m */; };
+		76A18529253048E200D32E43 /* SCJVideoSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A18528253048E200D32E43 /* SCJVideoSelectController.m */; };
+		76A1852C25305FBD00D32E43 /* SCJVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1852B25305FBD00D32E43 /* SCJVideoCell.m */; };
+		76A1852F2530606C00D32E43 /* SCJVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1852E2530606C00D32E43 /* SCJVideoModel.m */; };
+		76A185322530647800D32E43 /* UIImage+SCJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185312530647800D32E43 /* UIImage+SCJ.m */; };
+		76A185372530677E00D32E43 /* SCJVideoEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185362530677E00D32E43 /* SCJVideoEditController.m */; };
+		76A1853A2530685600D32E43 /* SCJVideoCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185392530685600D32E43 /* SCJVideoCropView.m */; };
+		76A1854025308F1800D32E43 /* UIView+SCJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1853F25308F1800D32E43 /* UIView+SCJ.m */; };
+		76A1854325308FC600D32E43 /* SCJVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1854225308FC600D32E43 /* SCJVideoPlayView.m */; };
+		76A185462530913B00D32E43 /* SCJVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185452530913B00D32E43 /* SCJVideoManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76A1850B253046D700D32E43 /* SCJVideoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCJVideoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1850E253046D700D32E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A1850F253046D700D32E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A18514253046D700D32E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76A18515253046D700D32E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76A18518253046D700D32E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A1851A253046D900D32E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A1851D253046D900D32E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A1851F253046D900D32E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A18520253046D900D32E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A18527253048E200D32E43 /* SCJVideoSelectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoSelectController.h; sourceTree = "<group>"; };
+		76A18528253048E200D32E43 /* SCJVideoSelectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoSelectController.m; sourceTree = "<group>"; };
+		76A1852A25305FBD00D32E43 /* SCJVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoCell.h; sourceTree = "<group>"; };
+		76A1852B25305FBD00D32E43 /* SCJVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoCell.m; sourceTree = "<group>"; };
+		76A1852D2530606C00D32E43 /* SCJVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoModel.h; sourceTree = "<group>"; };
+		76A1852E2530606C00D32E43 /* SCJVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoModel.m; sourceTree = "<group>"; };
+		76A185302530647800D32E43 /* UIImage+SCJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCJ.h"; sourceTree = "<group>"; };
+		76A185312530647800D32E43 /* UIImage+SCJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCJ.m"; sourceTree = "<group>"; };
+		76A185352530677E00D32E43 /* SCJVideoEditController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoEditController.h; sourceTree = "<group>"; };
+		76A185362530677E00D32E43 /* SCJVideoEditController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoEditController.m; sourceTree = "<group>"; };
+		76A185382530685600D32E43 /* SCJVideoCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoCropView.h; sourceTree = "<group>"; };
+		76A185392530685600D32E43 /* SCJVideoCropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoCropView.m; sourceTree = "<group>"; };
+		76A1853E25308F1800D32E43 /* UIView+SCJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SCJ.h"; sourceTree = "<group>"; };
+		76A1853F25308F1800D32E43 /* UIView+SCJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCJ.m"; sourceTree = "<group>"; };
+		76A1854125308FC600D32E43 /* SCJVideoPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoPlayView.h; sourceTree = "<group>"; };
+		76A1854225308FC600D32E43 /* SCJVideoPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoPlayView.m; sourceTree = "<group>"; };
+		76A185442530913B00D32E43 /* SCJVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJVideoManager.h; sourceTree = "<group>"; };
+		76A185452530913B00D32E43 /* SCJVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJVideoManager.m; sourceTree = "<group>"; };
+		B09A4574FA9B59F8F66A84E6 /* Pods-SCJVideoCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCJVideoCapture.release.xcconfig"; path = "Target Support Files/Pods-SCJVideoCapture/Pods-SCJVideoCapture.release.xcconfig"; sourceTree = "<group>"; };
+		D3FE62513ADB0DC63745D8CA /* libPods-SCJVideoCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCJVideoCapture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAE5085670E9FC138EB4AE7 /* Pods-SCJVideoCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCJVideoCapture.debug.xcconfig"; path = "Target Support Files/Pods-SCJVideoCapture/Pods-SCJVideoCapture.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A18508253046D700D32E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E558641C08DE40E843BE981 /* libPods-SCJVideoCapture.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CAEC4FD3665E75A8223E13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE62513ADB0DC63745D8CA /* libPods-SCJVideoCapture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A18502253046D700D32E43 = {
+			isa = PBXGroup;
+			children = (
+				76A1850D253046D700D32E43 /* SCJVideoCapture */,
+				76A1850C253046D700D32E43 /* Products */,
+				812EB259E1C1EC4BFA062A48 /* Pods */,
+				5CAEC4FD3665E75A8223E13A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76A1850C253046D700D32E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A1850B253046D700D32E43 /* SCJVideoCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A1850D253046D700D32E43 /* SCJVideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				76A185342530673B00D32E43 /* VideoEdit */,
+				76A185332530671800D32E43 /* VideoChoice */,
+				76A1850E253046D700D32E43 /* AppDelegate.h */,
+				76A1850F253046D700D32E43 /* AppDelegate.m */,
+				76A18514253046D700D32E43 /* ViewController.h */,
+				76A18515253046D700D32E43 /* ViewController.m */,
+				76A18517253046D700D32E43 /* Main.storyboard */,
+				76A1851A253046D900D32E43 /* Assets.xcassets */,
+				76A1851C253046D900D32E43 /* LaunchScreen.storyboard */,
+				76A1851F253046D900D32E43 /* Info.plist */,
+				76A18520253046D900D32E43 /* main.m */,
+			);
+			path = SCJVideoCapture;
+			sourceTree = "<group>";
+		};
+		76A185332530671800D32E43 /* VideoChoice */ = {
+			isa = PBXGroup;
+			children = (
+				76A18527253048E200D32E43 /* SCJVideoSelectController.h */,
+				76A18528253048E200D32E43 /* SCJVideoSelectController.m */,
+				76A1852A25305FBD00D32E43 /* SCJVideoCell.h */,
+				76A1852B25305FBD00D32E43 /* SCJVideoCell.m */,
+				76A1852D2530606C00D32E43 /* SCJVideoModel.h */,
+				76A1852E2530606C00D32E43 /* SCJVideoModel.m */,
+				76A185302530647800D32E43 /* UIImage+SCJ.h */,
+				76A185312530647800D32E43 /* UIImage+SCJ.m */,
+			);
+			path = VideoChoice;
+			sourceTree = "<group>";
+		};
+		76A185342530673B00D32E43 /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				76A185352530677E00D32E43 /* SCJVideoEditController.h */,
+				76A185362530677E00D32E43 /* SCJVideoEditController.m */,
+				76A185382530685600D32E43 /* SCJVideoCropView.h */,
+				76A185392530685600D32E43 /* SCJVideoCropView.m */,
+				76A1854125308FC600D32E43 /* SCJVideoPlayView.h */,
+				76A1854225308FC600D32E43 /* SCJVideoPlayView.m */,
+				76A185442530913B00D32E43 /* SCJVideoManager.h */,
+				76A185452530913B00D32E43 /* SCJVideoManager.m */,
+				76A1853E25308F1800D32E43 /* UIView+SCJ.h */,
+				76A1853F25308F1800D32E43 /* UIView+SCJ.m */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
+		812EB259E1C1EC4BFA062A48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFAE5085670E9FC138EB4AE7 /* Pods-SCJVideoCapture.debug.xcconfig */,
+				B09A4574FA9B59F8F66A84E6 /* Pods-SCJVideoCapture.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A1850A253046D700D32E43 /* SCJVideoCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A18524253046D900D32E43 /* Build configuration list for PBXNativeTarget "SCJVideoCapture" */;
+			buildPhases = (
+				A97B043FE97AA45041C84993 /* [CP] Check Pods Manifest.lock */,
+				76A18507253046D700D32E43 /* Sources */,
+				76A18508253046D700D32E43 /* Frameworks */,
+				76A18509253046D700D32E43 /* Resources */,
+				88C9A8A1072B096CCD6DF815 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCJVideoCapture;
+			productName = SCJVideoCapture;
+			productReference = 76A1850B253046D700D32E43 /* SCJVideoCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A18503253046D700D32E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = scj;
+				TargetAttributes = {
+					76A1850A253046D700D32E43 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 76A18506253046D700D32E43 /* Build configuration list for PBXProject "SCJVideoCapture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A18502253046D700D32E43;
+			productRefGroup = 76A1850C253046D700D32E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A1850A253046D700D32E43 /* SCJVideoCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A18509253046D700D32E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1851E253046D900D32E43 /* LaunchScreen.storyboard in Resources */,
+				76A1851B253046D900D32E43 /* Assets.xcassets in Resources */,
+				76A18519253046D700D32E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88C9A8A1072B096CCD6DF815 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SCJVideoCapture/Pods-SCJVideoCapture-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SCJVideoCapture/Pods-SCJVideoCapture-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SCJVideoCapture/Pods-SCJVideoCapture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97B043FE97AA45041C84993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SCJVideoCapture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A18507253046D700D32E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1852F2530606C00D32E43 /* SCJVideoModel.m in Sources */,
+				76A18529253048E200D32E43 /* SCJVideoSelectController.m in Sources */,
+				76A18516253046D700D32E43 /* ViewController.m in Sources */,
+				76A185322530647800D32E43 /* UIImage+SCJ.m in Sources */,
+				76A185372530677E00D32E43 /* SCJVideoEditController.m in Sources */,
+				76A18510253046D700D32E43 /* AppDelegate.m in Sources */,
+				76A18521253046D900D32E43 /* main.m in Sources */,
+				76A1854325308FC600D32E43 /* SCJVideoPlayView.m in Sources */,
+				76A1854025308F1800D32E43 /* UIView+SCJ.m in Sources */,
+				76A1852C25305FBD00D32E43 /* SCJVideoCell.m in Sources */,
+				76A185462530913B00D32E43 /* SCJVideoManager.m in Sources */,
+				76A1853A2530685600D32E43 /* SCJVideoCropView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A18517253046D700D32E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A18518253046D700D32E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A1851C253046D900D32E43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1851D253046D900D32E43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A18522253046D900D32E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A18523253046D900D32E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A18525253046D900D32E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAE5085670E9FC138EB4AE7 /* Pods-SCJVideoCapture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z6R78X8FT;
+				INFOPLIST_FILE = SCJVideoCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reworld.SCJVideoCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A18526253046D900D32E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09A4574FA9B59F8F66A84E6 /* Pods-SCJVideoCapture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z6R78X8FT;
+				INFOPLIST_FILE = SCJVideoCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reworld.SCJVideoCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A18506253046D700D32E43 /* Build configuration list for PBXProject "SCJVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A18522253046D900D32E43 /* Debug */,
+				76A18523253046D900D32E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A18524253046D900D32E43 /* Build configuration list for PBXNativeTarget "SCJVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A18525253046D900D32E43 /* Debug */,
+				76A18526253046D900D32E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A18503253046D700D32E43 /* Project object */;
+}
